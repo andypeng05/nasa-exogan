@@ -24,7 +24,7 @@ from scipy.interpolate import interp1d
 import sys
 from corner import *
 import logging
-import cPickle as pickle
+import pickle as pickle
 from scipy.misc import imresize
 from glob import glob
 from tqdm import tqdm
