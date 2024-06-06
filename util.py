@@ -506,7 +506,7 @@ def load(filename):
   """Loads a compressed object from disk
   """
   file = gzip.GzipFile(filename, 'rb')
-  buffer = ""
+  buffer = b""
   while 1:
     data = file.read()
     if data == "":
