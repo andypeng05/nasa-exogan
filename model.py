@@ -4,7 +4,7 @@ from scipy.stats import chisquare
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 from datetime import datetime
-import cPickle as pickle
+import pickle as pickle
 import time
 from util import *
 from ops import *
